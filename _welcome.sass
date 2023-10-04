@@ -1,0 +1,41 @@
+#welcome
+    background-image: url('assets/header.jpg')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    .textbox
+        padding: 50px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        h1,h3
+            color: #ffff
+        h1
+            font-size: 46px
+            padding: 160px 0 22px 0
+           
+        h3
+            padding: 30px 0
+            font-size: 80px
+            font-weight: 700
+        h5
+            &:hover
+                cursor: pointer
+        .btn
+            color: #ffff
+            font-size: 20px
+            font-weight: 600
+            padding: 20px 40px
+            margin-top: 70px
+            margin-bottom: 40px
+            background-color: #ffc800
+    @media (max-width: 1000px)
+        .textbox
+            text-align: center
+            h1
+                font-size: 38px
+            h3
+                font-size: 70px
+            .btn
+                font-size: 16px

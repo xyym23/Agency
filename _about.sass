@@ -1,0 +1,142 @@
+#about
+    background-color: #ffff
+    .box,.boxtwo
+        display: flex
+        padding-bottom: 80px
+        .textbox
+            width: 37%
+    .box
+        h2
+            text-align: end
+        h4
+            text-align: end
+    .boxtwo
+        flex-flow: row-reverse
+    .empty
+        width: 37%
+    .boxthree
+        display: flex
+        justify-content: center
+        .imgarea .border
+            .yellowborder
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 150px
+                height: 150px
+                border-radius: 50%
+                background-color: #ffc800
+                h6
+                    text-align: center
+                    color: #ffffff
+                    font-size: 24px
+    .imgarea
+        display: flex
+        justify-content: center
+        width: 26%
+        height: auto
+        .border
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color: #e9ecef
+            border-radius: 50%
+            width: 170px
+            height: 170px
+            .imgbox
+                width: 90%
+                border-radius: 50%
+    h1
+        padding-top: 20px
+        font-size: 46px
+        font-weight: 700
+        text-align: center
+    h2
+        line-height: 1.2
+        font-weight: 700
+        font-size: 28px
+    h4
+        line-height: 1.5
+        padding: 10px 0 20px 0
+        color: #6c757d
+        font-weight: 500
+        font-size: 18px
+    h3
+        line-height: 1.5
+        padding: 20px 0 60px 0
+        text-align: center
+        color: #6c757d
+        font-weight: 500
+        font-size: 16px
+    @media (max-width: 1000px)
+        .box
+            .textbox
+                display: flex
+                flex-direction: column
+                align-items: flex-end
+                h2
+                    width: 70%
+                h4
+                    width: 90%
+        .boxtwo
+            .textbox
+                h2
+                    width: 70%
+                h4
+                    width: 90%
+        .imgarea
+            display: flex
+            justify-content: center
+            width: 26%
+            height: auto
+            .border
+                width: 100px
+                height: 100px
+        .boxthree 
+            .imgarea 
+                .border
+                    .yellowborder
+                        width: 90px
+                        height: 90px
+                        h6
+                            font-size: 18px
+    @media (max-width: 700px)
+        .box
+            flex-direction: row-reverse
+            justify-content: start
+        .box
+            .textbox
+                padding-left: 10px
+                width: 74%
+                align-items: flex-start
+                h2,h4
+                    text-align: start
+                    width: 100%
+        .boxtwo
+            .textbox
+                padding-left: 10px
+                width: 74%
+                h2,h4
+                    width: 100%
+        .boxthree
+            justify-content: start
+        .empty
+            width: 0
+    @media (max-width: 450px)
+        .imgarea
+            .border
+                width: 70px
+                height: 70px
+        .box
+            .textbox
+                padding-left: 5px
+        .boxtwo
+            .textbox
+                padding-left: 5px
+        .boxthree .imgarea .border
+            .yellowborder
+                    width: 70px
+                    height: 70px
+                    h6
+                        font-size: 14px
+                

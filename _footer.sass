@@ -1,0 +1,51 @@
+footer
+    padding: 25px 0
+    background-color: #ffff
+    .col-md-4
+        display: flex
+        justify-content: center
+        align-items: center
+    .right
+        a
+            padding: 0 20px 0 0
+            color: #000
+            &:hover
+                cursor: pointer
+    .left
+        h2
+            &:hover
+                cursor: pointer
+    .logobox
+        display: flex
+        justify-content: center
+        .logo
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            background-color: #212529
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            margin: 0 10px 0 10px
+            &:hover
+                cursor: pointer
+            .icon
+                display: flex
+                justify-content: center
+                align-content: center
+                color: #ffff
+                font-size: 16px
+                i
+                    &:hover
+                        cursor: pointer
+    @media (max-width: 750px)
+        .col-md-4
+            width: 100%
+            padding-bottom: 20px
+        .right
+            width: 230px
+            display: flex
+            justify-content: space-around
+            a
+                padding: 0
